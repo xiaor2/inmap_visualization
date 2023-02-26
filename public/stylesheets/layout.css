@@ -10,18 +10,33 @@
   position: absolute;
   margin-top: 300px;
 }
-.red {
-  background-color: rgba(255, 0, 0, 0.8);;
+
+.legend1 {
+  background-color: #163d4e;
   height: 25px;
   display: inline;
 }
-.orange {
-  background-color: rgba(255, 128, 0, 0.8);;
+
+.legend2 {
+  background-color: #54792f;
   height: 25px;
   display: inline;
 }
-.yellow {
-  background-color: rgba(255, 255, 0, 0.8);
+
+.legend3 {
+  background-color: #d07e93;
+  height: 25px;
+  display: inline;
+}
+
+.legend4 {
+  background-color: #c1caf3;
+  height: 25px;
+  display: inline;
+}
+
+.legend5 {
+  background-color: #ffffff;
   height: 25px;
   display: inline;
 }
