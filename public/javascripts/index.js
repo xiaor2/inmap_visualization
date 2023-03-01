@@ -56,7 +56,7 @@ const pollutantOptions = {
   filled: true,
   extruded: true,
   lineWidthUnits: 'pixels',
-  getFillColor: (data) => hexToRgba(colors[Math.round(255 * (PM25Map.get(data.id) - min) / (max - min))]),
+  getFillColor: (data) => hexToRgba(colors[Math.round(255 * (PM25Map.get(data.id) - min) / (max - min))], Math.round(255 * (PM25Map.get(data.id) - min) / (max - min))),
   getLineColor: [255, 0, 0, 20],
   getPointRadius: 100,
   getLineWidth: 0,

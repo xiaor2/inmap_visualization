@@ -7,7 +7,7 @@ export function renderLegend(min, max) {
   document.querySelector('#legend5').innerText = Math.round((min + 5 * partial) * 100) / 100
 }
 
-export function hexToRgba(hex){
+export function hexToRgba(hex, opacity){
   var c;
   if(/^#([A-Fa-f0-9]{3}){1,2}$/.test(hex)){
       c= hex.substring(1).split('');
@@ -15,7 +15,7 @@ export function hexToRgba(hex){
           c= [c[0], c[0], c[1], c[1], c[2], c[2]];
       }
       c= '0x'+c.join('');
-      return [(c>>16)&255, (c>>8)&255, c&255, 200]
+      return [(c>>16)&255, (c>>8)&255, c&255, opacity]
   }
   throw new Error('Bad Hex');
 }
