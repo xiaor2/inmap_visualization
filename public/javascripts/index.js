@@ -1,5 +1,5 @@
 import { slice } from "https://cdn.skypack.dev/zarr";
-import pollutant from '../../pollutant.json' assert { type: "json" };;
+import pollutant from '../../pollutant.js';
 import { renderLegend, hexToRgba } from '../../utils/legend.js';
 import { colors } from '../../utils/colors.js';
 import { inClick, outClick } from "../../utils/clickEvents.js";
