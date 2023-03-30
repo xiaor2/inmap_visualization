@@ -6,6 +6,10 @@
 
 <hr>
 
+### Updates on 2023/03/29
+#### Features
+- Added the link to the tutorial.
+
 ### Updates on 2023/03/01
 #### Features
 - Changed the color schema to the reverse of CubeHelixDefault and opacity.
